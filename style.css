@@ -1,0 +1,149 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff8f5;
+    margin: 0;
+    text-align: center;
+    color: #333;
+}
+
+header {
+    background-color: #d9a7a0;
+    padding: 25px;
+    color: white;
+}
+
+nav {
+    background-color: #f3dcd7;
+    padding: 15px;
+}
+
+nav a {
+    display: inline-block;
+    margin: 10px;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 50px 20px;
+}
+
+.service {
+    background-color: white;
+    border: 1px solid #e8c9c3;
+    border-radius: 8px;
+    padding: 15px;
+    margin: 15px auto;
+    max-width: 350px;
+}
+
+.button {
+    display: inline-block;
+    background-color: #d9a7a0;
+    padding: 15px 25px;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.button:hover {
+    background-color: #bd8982;
+}
+
+/* Appointment booking form */
+
+.booking-form {
+    background-color: white;
+    max-width: 400px;
+    margin: 25px auto;
+    padding: 25px;
+    border-radius: 10px;
+    border: 1px solid #e8c9c3;
+    text-align: left;
+}
+
+.booking-form label {
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 6px;
+    font-weight: bold;
+}
+
+.booking-form input,
+.booking-form select {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.booking-form button {
+    background-color: #d9a7a0;
+    color: white;
+    border: none;
+    padding: 14px;
+    width: 100%;
+    border-radius: 5px;
+    margin-top: 25px;
+    cursor: pointer;
+}
+
+.booking-form button:hover {
+    background-color: #bd8982;
+}
+
+.cancel-button {
+    background-color: #b85c5c;
+    color: white;
+    border: none;
+    padding: 10px 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.cancel-button:hover {
+    background-color: #963f3f;
+}
+
+.search-form {
+    margin: 20px 0;
+    padding: 20px;
+    background-color: #fff0f3;
+    border-radius: 8px;
+}
+
+.search-form input {
+    padding: 10px;
+    width: 60%;
+    max-width: 350px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 10px 10px 10px 0;
+    box-sizing: border-box;
+}
+
+.search-form button {
+    background-color: #d9a7a0;
+    color: white;
+    padding: 10px 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.search-form button:hover {
+    background-color: #c48f88;
+}
+
+.search-form a {
+    margin-left: 10px;
+}
